@@ -1,19 +1,7 @@
-//local and global variable
 #include <iostream>
-
-using namespace std;
-
-int glo = 56;
-
-void sum(){
-    int glo = 9;
-    cout<<glo;
-}
+// using namespace std;
 
 int main(){
-    int glo = 4;
-    glo = 6;
-    cout<<glo;
-    sum();
+    std::cout<<"Hello world";
     return 0;
 }
