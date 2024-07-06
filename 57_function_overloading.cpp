@@ -14,3 +14,4 @@ int main(){
     cout<<"The sum of 4,1 and 7 is "<<sum(4,1,7);
     return 0;
 }
+

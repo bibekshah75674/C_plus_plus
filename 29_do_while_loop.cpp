@@ -9,3 +9,5 @@ int main(){
     } while(i<=30);
     return 0;
 }
+
+

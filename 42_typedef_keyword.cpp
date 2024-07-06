@@ -17,3 +17,4 @@ int main(){
     cout<<"His salary is "<<bibek.salary<<endl;
     return 0;
 }
+
