@@ -2,7 +2,7 @@
 using namespace std;
 
 //function declaration/prototype
-int sum(int a,int b);
+int sum(int a,int b); //we can also write this as int sum(int ,int );
 void g();
 
 int main(){

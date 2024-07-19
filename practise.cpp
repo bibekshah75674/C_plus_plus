@@ -1,12 +1,25 @@
 #include<iostream>
 using namespace std;
 
+int sum(int x,int y); //x and y are formal parameters
+void printHello();
+
 int main(){
-    enum Meal{breakfast,lunch,dinner};
-    Meal m1 = breakfast;
-    cout<<m1;
-    // cout<<breakfast<<endl;
-    // cout<<lunch<<endl;
-    // cout<<dinner<<endl;
+    int num1,num2;
+    cout<<"Enter the value of first number:"<<endl;
+    cin>>num1;
+    cout<<"Enter the value of second number:"<<endl;
+    cin>>num2;
+    cout<<"The sum of two number is "<<sum(num1,num2)<<endl; //num1 and num2 are actual parameters
+    printHello();
     return 0;
+}
+
+int sum(int x,int y){ //x and y are formal parameters
+    int z = x + y;
+    return z;
+}
+
+void printHello(){
+    cout<<"HElooooo";
 }
