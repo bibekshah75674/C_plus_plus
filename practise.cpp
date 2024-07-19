@@ -1,23 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void swap(int *a,int *b);
-
-int main(){
-    int x,y;
-    x = 4;
-    y = 5;
-    cout<<"The value of x and y is "<<x<<" and "<<y<<endl;
-    swap(&x,&y);
-    cout<<"The value of x and y is "<<x<<" and "<<y<<endl;
-
-    return 0;
+int sum(int x,int y){
+    return x+y;
 }
 
-void swap(int *a,int *b){
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
-    cout<<"The value of a and b after swapping is "<<*a<<" and "<<*b<<endl;
+int sum(int x,int y,int z){
+    return x+y+z;
+}
+
+int main(){
+    cout<<"The sum of 3 and 4 is "<<sum(3,4)<<endl;
+    cout<<"The sum of 3,4 and 5 is "<<sum(3,4,5)<<endl;
+
+    return 0;
 }
