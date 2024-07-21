@@ -7,8 +7,8 @@ class Employee
         int a,b,c;
     public:
         int d,e;
-    void setData(int a1,int b1,int c1); //Declaration
-    void getData(){
+        void setData(int a1,int b1,int c1); //Declaration
+        void getData(){
         cout<<"The value of a is "<<a<<endl;
         cout<<"The value of b is "<<b<<endl;
         cout<<"The value of c is "<<c<<endl;
@@ -32,3 +32,4 @@ int main(){
     bibek.getData();
     return 0;
 }
+
